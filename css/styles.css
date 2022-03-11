@@ -1,25 +1,58 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap'); </style>
-
-* {
-  box-sizing: border-box ;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap'),
+  /* : root {
+  --bg-gray:var(--bg-gray);
+  --color-primary:  var(--color-primary);
+  --white: var(--white);
+}*/ * {
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-html, body {
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+html,
+body {
   background-color: #ddd;
 }
 
-nav{
+header {
+  background-color: #4d41c0;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header {
-  background-color: #4D41C0;
-  color: #fff ;
+nav h1 {
+  font-size: 24px;
+  font-weight: 700;
 }
-  a, a:hover {
-    text-decoration: none;
-    color: unset;
-  }
+nav a {
+  font-size: 12px;
+  font-weight: 400;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.dsmovie-contact-container {
+  display: flex;
+  align-items: center;
+}
+
+.dsmovie-contact-container img {
+  margin-right: 10px;
+}
