@@ -57,7 +57,7 @@ a:hover {
   margin-right: 10px;
 }
 #dsmovie-card-list {
-  padding: 40px 10;
+  padding: 0 10;
 }
 
 .dsmovie-card {
@@ -99,7 +99,8 @@ a:hover {
 .dsmovie-card-description-botton img {
   width: 22px;
 }
-dsmovie-card-description-botton p {
+
+.dsmovie-card-description-botton p {
   font-size: 12px;
   font-weight: 400;
   color: lightgray;
@@ -155,4 +156,45 @@ dsmovie-card-description-botton p {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.dsmovie-pagination-container {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.dsmovie-pagination-box {
+  justify-content: space-between;
+  width: 180px;
+  display: flex;
+}
+.dsmovie-pagination-box p {
+  margin: 0;
+  font-size: 12px;
+  color: #4d41c0;
+}
+
+.dsmovie-pagination-box button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid color #4d41c0;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dsmovie-pagination-box img {
+  filter: brightness(0) saturate(100%) invert(22%) sepia(29%) saturate(5247%)
+    hue-rotate(235deg) brightness(101%) contrast(89%);
+}
+
+.dsmovie-pagination-boxbutton: disabled {
+  border: 1px solid color lightgray;
+}
+.dsmovie-pagination-boxbutton: disabled img {
+  filter: unset;
+}
+.dsmovie-flip-horizontal {
+  transform: rotate(180deg);
 }
