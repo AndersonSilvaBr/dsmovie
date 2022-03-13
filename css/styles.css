@@ -77,7 +77,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   border-radius: 0 0 8px 8px;
-  min-height: 150px;
+  height: 220px;
 }
 
 .dsmovie-card-description h3 {
@@ -85,6 +85,25 @@ a:hover {
   font-weight: 700;
   margin-bottom: 25px;
   text-align: center;
+}
+.dsmovie-card-description-botton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dsmovie-card-description-botton h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffbb3a;
+}
+.dsmovie-card-description-botton img {
+  width: 22px;
+}
+dsmovie-card-description-botton p {
+  font-size: 12px;
+  font-weight: 400;
+  color: lightgray;
+  margin-bottom: 10px;
 }
 
 .dsmovie-btn,
